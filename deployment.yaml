@@ -38,6 +38,6 @@ spec:
         name: mysql-secret
         key: MYSQL_ROOT_PASSWORD
         - name: clothes-ecommerce
-          image: vijay944/clothes-ecommerce:1.0
+          image: vijay944/clothes-ecommerce:latest
           ports:
             - containerPort: 80
