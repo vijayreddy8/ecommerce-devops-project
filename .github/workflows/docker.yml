@@ -25,3 +25,8 @@ jobs:
           context: .
           push: true
           tags: vijay944/clothes-ecommerce:latest
+
+      - name: Deploy to Kubernetes
+        run: |
+          echo "Docker image pushed successfully."
+          echo "Kubernetes deployment stage prepared."
