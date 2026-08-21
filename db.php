@@ -1,17 +1,13 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "onlineshop";
+$servername = getenv('DB_HOST') ?: 'localhost';
+$username   = getenv('DB_USER') ?: 'root';
+$password   = getenv('DB_PASSWORD') ?: '';
+$db         = getenv('DB_NAME') ?: 'clothes_db';
 
-// Create connection
-$con = mysqli_connect($servername, $username, $password,$db);
+$con = mysqli_connect($servername, $username, $password, $db);
 
-// Check connection
 if (!$con) {
-    die("Connection failed: " . mysqli_connect_error());
+    die("Database connection failed: " . mysqli_connect_error());
 }
-
-
 ?>

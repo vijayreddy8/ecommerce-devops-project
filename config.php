@@ -8,7 +8,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-define('DB_SERVER', 'localhost');
+define('DB_SERVER', 'clothesdb');
    define('DB_USERNAME', 'username');
    define('DB_PASSWORD', '');
    define('DB_DATABASE', 'ecommerece');

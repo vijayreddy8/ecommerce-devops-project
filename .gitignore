@@ -1,0 +1,17 @@
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+
+# Local downloaded binaries
+kubectl
+kubectl.sha256
+minikube-linux-amd64
+
+# Temporary files
+curl_response
+
+# OS files
+.DS_Store
+Thumbs.db
