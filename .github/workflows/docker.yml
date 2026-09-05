@@ -55,3 +55,4 @@ jobs:
             clothes-ecommerce=$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
           kubectl rollout status deployment/clothes-ecommerce
+# CI/CD pipeline
