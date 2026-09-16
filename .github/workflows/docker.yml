@@ -12,7 +12,7 @@ permissions:
 env:
   AWS_REGION: ap-south-1
   ECR_REPOSITORY: clothes-ecommerce
-  EKS_CLUSTER: ecommerce
+  EKS_CLUSTER: clothes-ecommerce
 
 jobs:
   deploy:
